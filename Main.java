@@ -1,10 +1,12 @@
 package NamFirstRepo;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to Nam's Java Repository");
-        System.out.println("Hello Nam");
-        System.out.println("Welcome to my repository");
-        
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println("Hello" + name);
+        System.out.println("Welcome to my Java Repository");
     }
 }
